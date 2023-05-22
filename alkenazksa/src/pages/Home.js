@@ -1,5 +1,5 @@
 import './pages_css/home.css';
-import AlkenazLogo from '../imagess/Akenaz_logo.png';
+import AlkenazLogo from '../imagess/Alkenaz_logo2.webp';
 import userLogo from '../imagess/user_logo1.png'
 import cartLogo from '../imagess/cart_logo.png'
 
@@ -15,7 +15,7 @@ export default function Home(){
             <input type="text" class="search-box" placeholder="search brand, product"/>
             <button class="search-btn">search</button>
         </div>
-        <a href="#"><img srcsrc={userLogo} alt="user"/></a>
+        <a href="#"><img src={userLogo} alt="user"/></a>
         <a href="#"><img src={cartLogo} alt="cart"/></a>
     </div>
 </div>
