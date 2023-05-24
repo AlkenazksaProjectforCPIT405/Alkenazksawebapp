@@ -6,10 +6,15 @@ import item4 from '../imagess/item4.jpg'
 import item5 from '../imagess/item5.jpg'
 import item6 from '../imagess/item6.jpg'
 import item7 from '../imagess/item7.jpg'
+import arrow from '../imagess/arrow.png'
 function Product(){
     return(
         <section class="product">
         <h2 class="product-category">best selling</h2>
+        <button class="pre-btn"><img src={arrow} alt=""/></button>
+<button class="nxt-btn"><img src={arrow} alt=""/></button>
+      
+
         <div class="product-container">
     <div class="product-card">
         <div class="product-image">
@@ -72,10 +77,23 @@ function Product(){
             <span class="price">330 SR</span>
         </div>
     </div>
+   
     <div class="product-card">
         <div class="product-image">
            
             <img src={item7} class="product-thumb" alt=""/>
+            <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">Abaya</h2>
+            <p class="product-short-des">Green Abaya</p>
+            <span class="price">270 SR</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+           
+            <img src={item6} class="product-thumb" alt=""/>
             <button class="card-btn">add to whislist</button>
         </div>
         <div class="product-info">
