@@ -11,8 +11,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #073e09;
+    background: #01291e;
     z-index: 9;
+    box-shadow: inset;
 }
 
 .nav{
@@ -24,7 +25,6 @@
 .brand-logo{
     height: 60px;
 }
-
 .nav-items{
     display: flex;
     align-items: center;

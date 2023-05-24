@@ -2,12 +2,16 @@ import './pages_css/home.css';
 import AlkenazLogo from '../imagess/Alkenaz_logo2.webp';
 import userLogo from '../imagess/user_logo1.png'
 import cartLogo from '../imagess/cart_logo.png'
+import Hero from '../componets/Hero';
+import Navbar from './Navbar';
+import Product from './Prouduct';
 
 
 export default function Home(){
     return(
+        <body>
 
-<nav class="navbar">
+<nav class="navbar" >
 <div class="nav">
     <img src={AlkenazLogo} class="brand-logo" alt="alkenaz"/>
  
@@ -24,11 +28,19 @@ export default function Home(){
     </div>
     
 </div>
+<div>
+    <Navbar/>
+</div>
 
-<ul class="links-container">
-    <li class="link-item"><a href="#" class="link">home</a></li>
-    <li class="link-item"><a href="#" class="link">accessories</a></li>
-</ul>
+
+
+
 </nav>
+
+<Hero/>
+
+<Product/>
+
+</body>
  )
 }
