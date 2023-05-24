@@ -4,7 +4,7 @@
     padding: 10px 10vw;
     justify-content: center;
     list-style: none;
-    border-top: 1px solid #b21b1bb1;
+    border-top: 1px solid #ba9c06b1;
 }
 
 .link{
@@ -12,7 +12,7 @@
     padding: 0 10px;
     margin: 0 5px;
     text-decoration: none;
-    color: #137a37;
+    color: #ffffff;
     opacity: 0.5;
     transition: .5s;
 }
