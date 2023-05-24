@@ -14,6 +14,7 @@ import Userpage from '../pages/Userpage';
 
 
 export default function Home(){
+    let url ="";
     return(
         <body>
 
@@ -28,7 +29,7 @@ export default function Home(){
             <input type="text" class="search-box" placeholder="search brand, product"/>
             <button class="search-btn">search</button>
         </div>
-        <a href={Userpage}> <img src={userLogo} alt="user"/></a>
+        <a href='userpage'> <img src={userLogo} alt="user"/></a>
         <a href="#"><img src={cartLogo} alt="cart"/></a>
 
     </div>
