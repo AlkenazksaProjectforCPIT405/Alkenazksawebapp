@@ -6,6 +6,7 @@ import Layout from './pages/Layout.js';
 import Home from './pages/Home.js';
 import NotFound from './pages/NotFound.js';
 import Navbar from './pages/Navbar.js';
+import Userpage from './pages/Userpage';
 
 
 
@@ -17,6 +18,7 @@ export default function App(){
     <Route  path="/" element={<Layout />}>
       <Route index element={<Home />}/>
       <Route path='navbar' element={<Navbar />}/>
+      <Route path='userpage'  element={<Userpage />}/>
       <Route  path='*' element={<NotFound />}/>
       </Route>
   </Routes>
