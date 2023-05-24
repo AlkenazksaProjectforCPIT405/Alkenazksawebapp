@@ -5,6 +5,8 @@ import cartLogo from '../imagess/cart_logo.png'
 import Hero from '../componets/Hero';
 import Navbar from './Navbar';
 import Product from './Prouduct';
+import Collection from './Collection';
+import Footer from '../componets/Footer';
 
 
 
@@ -43,6 +45,10 @@ export default function Home(){
 <Hero/>
 
 <Product/>
+
+<Collection/>
+
+<Footer/>
 
 </body>
  )

@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #01291e;
+    background: #383838;
     z-index: 9;
     box-shadow: inset;
 }
@@ -41,7 +41,7 @@
     padding: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border: 1px solid #ffffff;
+    border: 1px solid #003030;
     text-transform: capitalize;
     background: none;
     color: #fffefa;
@@ -55,8 +55,8 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background: #ab8902;
-    color: #000000;
+    background: #003030;
+    color: #ffffff;
     text-transform: capitalize;
     font-size: 15px;
     border-top-right-radius: 10px;

@@ -1,5 +1,7 @@
 @import 'nav.css';
 
+
+
 .product{
     position: relative;
     overflow: hidden;
@@ -144,5 +146,3 @@
     opacity: 1;
     width: 20px;
 }
-
-@import 'footer.css';
