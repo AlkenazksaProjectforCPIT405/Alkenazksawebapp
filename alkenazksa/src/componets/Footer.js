@@ -16,6 +16,22 @@ function Footer(){
             </ul>
         </div>
     </div>
+    <p class="footer-title">about company</p>
+    <p class="info">Accent your outfit with a uniquely designed Kenaz made from high quality materials. Every design we offer tells a story you are a part of</p>
+    <p class="info">support emails - Alkenaz@care.com Alkenazksa@gmail.com</p>
+  
+    <div class="footer-social-container">
+        <div>
+            <a href="#" class="social-link">terms & services</a>
+            <a href="#" class="social-link">privacy page</a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/alkenazksa/" class="social-link">instagram</a>
+            <a href="https://www.snapchat.com/add/https://www.snapchat.com/add/alkenazksa" class="social-link">Snap chat</a>
+            <a href="https://twitter.com/alkenazksa" class="social-link">twitter</a>
+        </div>
+    </div>
+    <p class="footer-credit">Alkenaz ABAYA, the BEST</p>
 </footer>
 
     )

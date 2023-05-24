@@ -87,7 +87,7 @@ function Product(){
         <div class="product-info">
             <h2 class="product-brand">Abaya</h2>
             <p class="product-short-des">Green Abaya</p>
-            <span class="price">270 SR</span>
+            <span class="price">400 SR</span>
         </div>
     </div>
     <div class="product-card">
@@ -98,8 +98,8 @@ function Product(){
         </div>
         <div class="product-info">
             <h2 class="product-brand">Abaya</h2>
-            <p class="product-short-des">Green Abaya</p>
-            <span class="price">270 SR</span>
+            <p class="product-short-des">Gray Abaya</p>
+            <span class="price">350 SR</span>
         </div>
     </div>
 </div>
