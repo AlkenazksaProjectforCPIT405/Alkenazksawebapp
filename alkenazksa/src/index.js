@@ -7,6 +7,7 @@ import Home from './pages/Home.js';
 import NotFound from './pages/NotFound.js';
 import Navbar from './pages/Navbar.js';
 import Userpage from './pages/Userpage';
+import ProductPage from './pages/ProductPage';
 
 
 
@@ -19,6 +20,7 @@ export default function App(){
       <Route index element={<Home />}/>
       <Route path='navbar' element={<Navbar />}/>
       <Route path='userpage'  element={<Userpage />}/>
+      <Route path='proudectpage' element={<ProductPage/>}/>
       <Route  path='*' element={<NotFound />}/>
       </Route>
   </Routes>

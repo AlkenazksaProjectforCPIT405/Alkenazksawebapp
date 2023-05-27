@@ -146,3 +146,9 @@
     opacity: 1;
     width: 20px;
 }
+
+.edit_href{
+    text-decoration: none;
+
+    color: inherit;
+}

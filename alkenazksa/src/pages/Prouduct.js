@@ -7,28 +7,38 @@ import item5 from '../imagess/item5.jpg'
 import item6 from '../imagess/item6.jpg'
 import item7 from '../imagess/item7.jpg'
 import arrow from '../imagess/arrow.png'
+
+
 function Product(){
     return(
+      
         <section class="product">
         <h2 class="product-category">best selling</h2>
         <button class="pre-btn"><img src={arrow} alt=""/></button>
 <button class="nxt-btn"><img src={arrow} alt=""/></button>
-      
+
 
         <div class="product-container">
+        
     <div class="product-card">
+    <a href='proudectpage' class="edit_href">
         <div class="product-image">
             <span class="discount-tag">50% off</span>
-            <img src={item1} class="product-thumb" alt=""/>
+            <img src={item1} class="product-thumb" alt=""/>.click();
             <button class="card-btn">add to whislist</button>
+            
         </div>
+       
         <div class="product-info">
             <h2 class="product-brand">Abaya</h2>
             <p class="product-short-des">Black Abaya</p>
-            <span class="price">300 SR</span><span class="actual-price">150 SR</span>
+            <span class="price">150 SR</span><span class="actual-price">300 SR</span>
         </div>
+        </a>
     </div>
+   
     <div class="product-card">
+    <a href='proudectpage' class="edit_href">
         <div class="product-image">
             
             <img src={item2} class="product-thumb" alt=""/>
@@ -39,8 +49,10 @@ function Product(){
             <p class="product-short-des">Black Abaya</p>
             <span class="price">330 SR</span>
         </div>
+        </a>
     </div>
     <div class="product-card">
+    <a href='proudectpage' class="edit_href">
         <div class="product-image">
             
             <img src={item3} class="product-thumb" alt=""/>
@@ -51,9 +63,11 @@ function Product(){
             <p class="product-short-des">Gray Abaya</p>
             <span class="price">290 SR</span>
         </div>
+        </a>
     </div>
    
     <div class="product-card">
+    <a href='proudectpage' class="edit_href">
         <div class="product-image">
            
             <img src={item4} class="product-thumb" alt=""/>
@@ -64,8 +78,10 @@ function Product(){
             <p class="product-short-des">DarkBlue Abaya</p>
             <span class="price">300SR</span>
         </div>
+        </a>
     </div>
     <div class="product-card">
+    <a href='proudectpage' class="edit_href">
         <div class="product-image">
             
             <img src={item5} class="product-thumb" alt=""/>
@@ -76,9 +92,11 @@ function Product(){
             <p class="product-short-des">Black Abaya</p>
             <span class="price">330 SR</span>
         </div>
+        </a>
     </div>
    
     <div class="product-card">
+    <a href='proudectpage' class="edit_href">
         <div class="product-image">
            
             <img src={item7} class="product-thumb" alt=""/>
@@ -89,8 +107,10 @@ function Product(){
             <p class="product-short-des">Green Abaya</p>
             <span class="price">400 SR</span>
         </div>
+        </a>
     </div>
     <div class="product-card">
+    <a href='proudectpage' class="edit_href">
         <div class="product-image">
            
             <img src={item6} class="product-thumb" alt=""/>
@@ -101,10 +121,15 @@ function Product(){
             <p class="product-short-des">Gray Abaya</p>
             <span class="price">350 SR</span>
         </div>
+        </a>
     </div>
 </div>
+
     </section>
+   
     );
     }
     
     export default Product;
+
+   
