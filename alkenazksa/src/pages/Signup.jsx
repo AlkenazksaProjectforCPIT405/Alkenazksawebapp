@@ -54,7 +54,7 @@ function Signup(){
         }
     }
     function checkUser(){
-        var url = "http://localhost/checkuser.php";
+        var url = "http://localhost/phpserver/checkuser.php";
         var headers = {
             "Accept": "application/json",
             "Content-Type": "application/json"
@@ -77,7 +77,7 @@ function Signup(){
 
     
     function checkEmail(){
-        var url = "http://localhost/checkemail.php";
+        var url = "http://localhost/phpserver/checkemail.php";
         var headers = {
             "Accept": "application/json",
             "Content-Type": "application/json"
@@ -107,7 +107,7 @@ function Signup(){
 
     function handleSubmit(){
         if(user !== "" && email !== "" && pass1 !== "" && pass2 !== ""){
-            var url = "http://localhost/Signup.php";
+            var url = "http://localhost/phpserver/Signup.php";
             var headers = {
                 "Accept": "application/json",
                 "Content-Type": "application/json"
