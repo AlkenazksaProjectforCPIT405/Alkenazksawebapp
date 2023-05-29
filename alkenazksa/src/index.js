@@ -8,6 +8,7 @@ import NotFound from './pages/NotFound.js';
 import Navbar from './pages/Navbar.js';
 import Userpage from './pages/Userpage';
 import ProductPage from './pages/ProductPage';
+import Signup from './pages/Signup';
 
 
 
@@ -21,6 +22,7 @@ export default function App(){
       <Route path='navbar' element={<Navbar />}/>
       <Route path='userpage'  element={<Userpage />}/>
       <Route path='proudectpage' element={<ProductPage/>}/>
+      <Route path='signup' element={<Signup/>}/>
       <Route  path='*' element={<NotFound />}/>
       </Route>
   </Routes>

@@ -14,7 +14,7 @@ function Userpage(){
         <br/>
         <button type="onclick">Sign in</button>
         <div>
-        <p class="sSignup">Create a new account! <a href='#'>Sign UP</a></p>
+        <p class="sSignup">Create a new account! <a href='signup'>Sign UP</a></p>
         </div>
         </div>
 
