@@ -1,16 +1,21 @@
-.as .hee{
+@import 'nav.css';
+.bodys .he{
     width: 100%;
     height: calc(100vh - 120px);
- 
+  
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.label{
+.username{
     margin-top: 0.5rem;
     font-size: small;
+}
+.password{
+    margin-top: 0.5rem;
+    font-size: small;  
 }
 
 .input[type=text], input[type=email], input[type=password]{
@@ -22,7 +27,7 @@
     width: 300px;
 }
 
-.button{
+.bb{
     margin-top: 0.5rem;
     padding: 0.5rem;
     font-size: 1rem;

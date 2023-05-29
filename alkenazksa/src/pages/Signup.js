@@ -140,6 +140,7 @@ function Signup(){
 
     return(
         <body class="as">
+            <header class="hee">
             <div className="form">
                 <p>
                     {
@@ -193,6 +194,7 @@ function Signup(){
 
                 />
             </div>
+            </header>
         </body>
     );
 }
