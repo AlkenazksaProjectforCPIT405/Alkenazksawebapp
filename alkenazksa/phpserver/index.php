@@ -13,10 +13,10 @@
     // $driver = new mysqli_driver();
     // $driver->report_mode = MYSQLI_REPORT_ALL;
     require_once('./db_connection.php');
-    require('./insert_todo.php');
-    require('./get_todos.php');
-    require('./update_todo.php');
-    require('./delete_todo.php');
+    require('./insert_prod.php');
+    require('./get_prod.php');
+    require('./update_prod.php');
+    require('./delete_prod.php');
     
     // if the form is submitted by this page
     if ($_SERVER["REQUEST_METHOD"] == "POST"){
