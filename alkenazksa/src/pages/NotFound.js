@@ -1,5 +1,5 @@
 import './pages_css/notfound.css';
-import Home from '../pages/Home.js';
+import Home from './Home.js';
 import p404p from '../imagess/404.png';
 import Header from "../componets/Header"
 export default function NotFound(){

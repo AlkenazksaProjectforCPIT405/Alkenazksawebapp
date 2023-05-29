@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 import Product from './Prouduct';
 import Collection from './Collection';
 import Footer from '../componets/Footer';
-import Userpage from '../pages/Userpage';
+import Userpage from './Userpage';
 
 
 
