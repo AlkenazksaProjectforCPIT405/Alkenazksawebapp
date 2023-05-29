@@ -4,7 +4,7 @@
     header("Access-Control-Allow-Methods: GET, POST");
     header("Access-Control-Allow-Headers: Content-Type");
 
-    $conn = new mysqli("localhost", "alkenaz", "1234", "alkenaz_db");
+    $conn = new mysqli("localhost", "root", " ", " ");
     if(mysqli_connect_error()){
         echo mysqli_connect_error();
         exit();
