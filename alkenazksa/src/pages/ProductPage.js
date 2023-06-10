@@ -6,7 +6,7 @@ import AlkenazLogo from '../imagess/Alkenaz_logo2.webp';
 import userLogo from '../imagess/user_logo1.png'
 import cartLogo from '../imagess/cart_logo.png'
 import Footer from "../componets/Footer";
-import item1 from '../imagess/item1.jpg'
+import item1 from '../imagess/item1.jpg';
 
 
 function ProductPage(){
@@ -47,7 +47,7 @@ function ProductPage(){
             <button class="search-btn">search</button>
         </div>
         <a href='userpage'> <img src={userLogo} alt="user"/></a>
-        <a href="#"><img src={cartLogo} alt="cart"/></a>
+        <a href="/#"><img src={cartLogo} alt="cart"/></a>
 
     </div>
     
