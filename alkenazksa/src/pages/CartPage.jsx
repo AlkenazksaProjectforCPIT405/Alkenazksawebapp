@@ -2,8 +2,12 @@ import React from "react";
 import './pages_css/cartpage.css';
 import AlkenazLogo from '../imagess/Alkenaz_logo2.webp';
 import Footer from "../componets/Footer";
+import { useNavigate } from "react-router-dom";
+const apiUrl = 'http://localhost:9000/server/api';
+
 
 function CartPage() {
+  const navigate = useNavigate();
   const [cartItems, setCartItems] = React.useState([]);
 
   React.useEffect(() => {
@@ -43,6 +47,39 @@ function CartPage() {
   const subtotal = cartItems.reduce((acc, item) => acc + item.product.price * item.quantity, 0);
   const vat = subtotal * 0.15;
   const total = subtotal + vat;
+
+  async function makeOrder() {
+    
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    var raw = JSON.stringify({
+      email: localStorage.getItem("email"),
+      items: cartItems,
+      totalPrice: total,
+    });
+
+    var requestOptions = {
+      method: "POST",
+      headers: myHeaders,
+      body: raw,
+      redirect: "follow",
+    };
+
+    const response = await fetch(
+      apiUrl+"/makeOrder.php",
+      requestOptions
+    );
+    const result = await response.json();
+    console.log(result);
+
+    if (result.success) {
+      localStorage.removeItem("items");
+      navigate("/");
+    } else {
+      alert(result.message);
+    }
+  }
 
   return (
     <>
@@ -121,7 +158,7 @@ function CartPage() {
               </tbody>
             </table>
             <button onClick={handleClearCart}>Clear Cart</button>
-            <button>Checkout</button>
+            <button onClick={makeOrder}>make order</button>
           </div>
         )}
       </section>

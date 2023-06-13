@@ -1,12 +1,12 @@
 import React from "react";
-import { useState, useEffect } from 'react';
-import { useNavigate, useLocation } from "react-router-dom";
+import { useState} from 'react';
+import { useNavigate } from "react-router-dom";
 import './pages_css/signin.css';
 
 const apiUrl = 'http://localhost:9000/server/api';
 function Userpage() {
     const navigate = useNavigate();
-    const location = useLocation();
+   
     const [isLoggedIn, setIsLoggedIn] = React.useState({
         state: localStorage.getItem("isLoggedIn") === "true" || false,
         email: localStorage.getItem("email") || "",
@@ -14,17 +14,10 @@ function Userpage() {
 
     const [email, setEmail] = useState("");
     const [pass, setPass] = useState("");
-    const [error, setError] = useState("");
-    const [msg, setMsg] = useState("");
-   const queryParams = new URLSearchParams(location.search);
-    const fromCartPage = queryParams.get("fromCartPage") === "true";
+   
+   
 
-    // useEffect(() => {
-    //     setTimeout(function () {
-    //         setMsg("");
-    //         setError("");
-    //     }, 15000);
-    // }, [msg]);
+   
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -97,27 +90,27 @@ function Userpage() {
 
             {isLoggedIn.state ?
 
-                (<div>
-                    <p>
-                        You are logged in as{" "}
-                        <span >{isLoggedIn.email}</span>
-                    </p>
-                    <a href="/">
-                        Home
+                (  <div className="navbar">
+                <div className="navbar-content">
+                  <p className="navbar-text">
+                    You are logged in as <span className="navbar-email">{isLoggedIn.email}</span>
+                  </p>
+                  <div className="navbar-links">
+                    <a href="/" className="navbar-link">
+                      Home
                     </a>
-                    <a href="/" onClick={handleLogout}>
-                        Log out
+                    <a href="/orderspage" className="navbar-link">
+                      Orders
                     </a>
-                </div>) :
+                    <button className="navbar-logout" onClick={handleLogout}>
+                      Log out
+                    </button>
+                  </div>
+                </div>
+              </div>) :
                 (<header class="he">
                     <div className="form">
-                        <p>
-                            {
-                                msg !== "" ?
-                                    <span className="success">{msg}</span> :
-                                    <span className="error">{error}</span>
-                            }
-                        </p>
+                        
                         <h1 class="signinh">SignIn</h1>
                         <br></br>
                         <label class="username" >email</label>
