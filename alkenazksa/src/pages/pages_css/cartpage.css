@@ -1,0 +1,73 @@
+#cart-page {
+    font-family: Arial, sans-serif;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .cart-items {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .cart-items th, .cart-items td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .cart-items th {
+    background-color: #f2f2f2;
+  }
+  
+  .cart-items tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .item-name {
+    width: 40%;
+  }
+  
+  .item-price {
+    width: 20%;
+  }
+  
+  .item-quantity {
+    width: 20%;
+  }
+  
+  .item-actions {
+    width: 20%;
+  }
+  
+  .remove-button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .calculate-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    margin-top: 20px;
+  }

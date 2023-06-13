@@ -32,7 +32,7 @@ export default function Home() {
                             <button class="search-btn">search</button>
                         </div>
                         <a href='userpage'> <img src={userLogo} alt="user" /></a>
-                        <a href="/#"><img src={cartLogo} alt="cart" /></a>
+                        <a href="/cartpage"><img src={cartLogo} alt="cart" /></a>
 
                     </div>
 

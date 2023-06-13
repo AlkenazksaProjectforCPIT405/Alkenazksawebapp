@@ -9,7 +9,7 @@ import Navbar from './pages/Navbar.js';
 import Userpage from './pages/Userpage';
 import ProductPage from './pages/ProductPage';
 import Signup from './pages/Signup';
-
+import CartPage from './pages/CartPage';
 
 
 
@@ -23,6 +23,7 @@ export default function App(){
       <Route path='userpage'  element={<Userpage />}/>
       <Route path='proudectpage' element={<ProductPage/>}/>
       <Route path='signup' element={<Signup/>}/>
+      <Route path='cartpage' element={<CartPage/>}/>
       <Route  path='*' element={<NotFound />}/>
       </Route>
   </Routes>
