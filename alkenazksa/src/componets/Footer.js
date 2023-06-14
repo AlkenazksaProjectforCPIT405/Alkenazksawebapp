@@ -10,9 +10,9 @@ function Footer(){
         <div class="footer-ul-container">
             <ul class="category">
                 <li class="category-title">Alkenaz</li>
-                <li><a href="#" class="footer-link">Abaya</a></li>
-                <li><a href="#" class="footer-link">Tarha</a></li>
-                <li><a href="#" class="footer-link">Support</a></li>
+                <li><a href="/#" class="footer-link">Abaya</a></li>
+                <li><a href="/#" class="footer-link">Tarha</a></li>
+                <li><a href="/#" class="footer-link">Support</a></li>
             </ul>
         </div>
     </div>
@@ -22,8 +22,8 @@ function Footer(){
   
     <div class="footer-social-container">
         <div>
-            <a href="#" class="social-link">terms & services</a>
-            <a href="#" class="social-link">privacy page</a>
+            <a href="/#" class="social-link">terms & services</a>
+            <a href="/#" class="social-link">privacy page</a>
         </div>
         <div>
             <a href="https://www.instagram.com/alkenazksa/" class="social-link">instagram</a>

@@ -1,7 +1,7 @@
 import './pages_css/notfound.css';
-import Home from './Home.js';
+
 import p404p from '../imagess/404.png';
-import Header from "../componets/Header"
+
 export default function NotFound(){
     return(
         <div class="aa">

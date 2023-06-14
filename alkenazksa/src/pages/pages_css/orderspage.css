@@ -1,0 +1,34 @@
+.orders {
+    margin: 2rem;
+  }
+  
+  .orders-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .orders-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .orders-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .orders-item-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .orders-no-results {
+    font-style: italic;
+  }

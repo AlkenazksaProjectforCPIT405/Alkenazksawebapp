@@ -1,4 +1,36 @@
 @import 'nav.css';
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-logout {
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  .navbar-logout:hover {
+    background-color: #c0392b;
+  }
+
 .bodys .he{
     width: 100%;
     height: calc(100vh - 120px);
